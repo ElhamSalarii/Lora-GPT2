@@ -30,23 +30,6 @@
 - **Seed:** Set a fixed random seed for reproducibility.
 - **Logging:** Log training progress, validation metrics, and system info (CUDA version, PyTorch version).
 
-Example snippet (YAML):
-```yaml
-model:
-  name: gpt2
-  size: base
-lora:
-  rank: 8
-  alpha: 16
-training:
-  epochs: 3
-  batch_size: 8
-  learning_rate: 3e-5
-data:
-  train_path: data/squad/train.json
-  val_path: data/squad/val.json
-```
-
 ## Directory Structure (high-level)
 
 - `lora_qa_finetuning.py` – main training entry point
