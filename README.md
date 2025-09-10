@@ -70,8 +70,6 @@ Example prompt snippet:
   - Section 4: Evaluation Protocols
 
 ## Contributing
-
-- See `CONTRIBUTING.md` (or `CONTRIBUTING.txt`) for guidelines.
 - How to report issues and request features
 - Coding standards (PEP 8, docstrings)
 
