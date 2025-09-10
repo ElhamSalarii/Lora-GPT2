@@ -19,24 +19,6 @@
 ### Prerequisites
 - Python >= 3.8
 - PyTorch compatible with your CUDA version (if using GPU)
-- Dependencies in `requirements.txt`
-
-### Installation
-1) Clone the repository
-- `git clone https://github.com/username/repo.git`
-
-2) Create a virtual environment (recommended)
-- macOS/Linux: `python -m venv env && source env/bin/activate`
-- Windows: `python -m venv env && .\env\Scripts\activate`
-
-3) Install dependencies
-- `cd repo && pip install -r requirements.txt`
-
-### Running a Default Experiment
-- **Train:** `python lora_qa_finetuning.py`
-- **Evaluate:** `python evaluate.py`
-
-> Tip: Use a config file or environment variables to switch datasets, model sizes, and LoRA rank.
 
 ## Configuration and Reproducibility
 
@@ -112,14 +94,8 @@ Example prompt snippet:
 
 ## Accessibility and Licensing
 
-- License: [Your License] (e.g., MIT)
-- Contact: project maintainer contact or team
-
-## Versioning
-
-- Note on versioning strategy (e.g., semantic versioning)
-- How to align docs with releases
+- License:
+- 1.[DL4032_ElhamSalari-403155005_HW04.pdf](https://github.com/user-attachments/files/22247982/DL4032_ElhamSalari-403155005_HW04.pdf)
+  2.  [NIPS-2017-attention-is-all-you-need-Paper.pdf](https://github.com/user-attachments/files/22247988/NIPS-2017-attention-is-all-you-need-Paper.pdf) (e.g., MIT)
 
 
-[DL4032_ElhamSalari-403155005_HW04.pdf](https://github.com/user-attachments/files/22247982/DL4032_ElhamSalari-403155005_HW04.pdf)/
-[NIPS-2017-attention-is-all-you-need-Paper.pdf](https://github.com/user-attachments/files/22247988/NIPS-2017-attention-is-all-you-need-Paper.pdf)
